@@ -63,7 +63,10 @@
     ENSURE_UI_THREAD(start, args)
     ENSURE_SINGLE_ARG(args,NSDictionary);
     ENSURE_TYPE(args,NSDictionary);
-    
+    if(![args objectForKey:@"suiteName"]) {
+        NSLog(@"[ERROR] suiteName field is required");
+        return;
+    }
     NSString* identifier =[TiUtils stringValue:@"suiteName" properties:args];
     NSString* dir = [TiUtils stringValue:@"directory" properties:args def:@"tiwormhole"];
     self.wormhole = [[MMWormhole alloc] initWithApplicationGroupIdentifier:identifier
