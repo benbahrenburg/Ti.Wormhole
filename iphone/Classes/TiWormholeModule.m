@@ -84,20 +84,26 @@
 }
 
 
--(NSDictionary*)readWormhole:(NSString*)name
+-(id)readWormhole:(id)args
 {
+    ENSURE_ARG_COUNT(args,1);
+    NSString* name = [TiUtils stringValue:[args objectAtIndex:0]];
+    ENSURE_TYPE(name,NSString);
+    
     id messageObject = [self.wormhole messageWithIdentifier:name];
+    
     if([messageObject isKindOfClass: [NSDictionary class]]){
+    
         return  [NSDictionary dictionaryWithObjectsAndKeys:
-                                   name,@"wormholeName",
-                                   (NSDictionary*)messageObject,@"wormhole",
-                                   nil];
+                                       name,@"wormholeName",
+                                       (NSDictionary*)messageObject,@"wormhole",
+                                       nil];
         
     } else if ([messageObject isKindOfClass: [NSArray class]]){
         return  [NSDictionary dictionaryWithObjectsAndKeys:
-                 name,@"wormholeName",
-                 (NSArray*)messageObject,@"wormhole",
-                 nil];
+                     name,@"wormholeName",
+                     (NSArray*)messageObject,@"wormhole",
+                     nil];
     }else{
         return nil;
     }
