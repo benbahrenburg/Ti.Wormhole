@@ -39,8 +39,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
  
     func addMessageListener(eventName : String){
         self.wormhole.listenForMessageWithIdentifier(eventName, listener:{(messageObject:AnyObject!) -> Void in
-            if((messageObject[sampleFieldName]) != nil){
-                self.displayCount = messageObject[sampleFieldName] as! Int!
+            if let fieldCount: AnyObject? = messageObject[sampleFieldName] {
+                self.displayCount = fieldCount as! Int!
                 self.displayCounter()
             }
         })
@@ -48,8 +48,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
     func initDisplayCounter(eventName:String){
         let savedMessage: AnyObject? = wormhole.messageWithIdentifier(eventName);
-        if((savedMessage?[sampleFieldName]) != nil){
-            self.displayCount = savedMessage?[sampleFieldName] as! Int!
+         if let fieldCount: AnyObject?  = savedMessage?[sampleFieldName] {
+            self.displayCount = fieldCount as! Int!
             self.displayCounter()
         }
     }
