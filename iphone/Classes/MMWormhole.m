@@ -254,8 +254,11 @@ void wormholeNotificationCallback(CFNotificationCenterRef center,
 - (void)listenForMessageWithIdentifier:(NSString *)identifier
                               listener:(void (^)(id messageObject))listener {
     if (identifier != nil) {
+        BOOL wasRegisteredBefore = (self.listenerBlocks[identifier] != nil);
         [self.listenerBlocks setValue:listener forKey:identifier];
-        [self registerForNotificationsWithIdentifier:identifier];
+        if (!wasRegisteredBefore) {
+            [self registerForNotificationsWithIdentifier:identifier];
+        }
     }
 }
 
