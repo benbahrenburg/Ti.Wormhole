@@ -7,8 +7,11 @@
 
 #import "TiModule.h"
 #import "MMWormhole.h"
-@interface TiWormholeModule : TiModule
-{
+
+@interface TiWormholeModule : TiModule {
+    
 }
+
 @property (nonatomic, strong) MMWormhole *wormhole;
+
 @end

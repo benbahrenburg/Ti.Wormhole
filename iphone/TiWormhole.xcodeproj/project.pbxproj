@@ -30,6 +30,23 @@
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		CAD27D721AC8B2B800FFEBA1 /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD27D701AC8B2B800FFEBA1 /* MMWormhole.h */; };
 		CAD27D731AC8B2B800FFEBA1 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD27D711AC8B2B800FFEBA1 /* MMWormhole.m */; };
+		DB988C641E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C531E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.h */; };
+		DB988C651E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C541E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.m */; };
+		DB988C661E19319300D7BBA3 /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C551E19319300D7BBA3 /* MMWormholeFileTransiting.h */; };
+		DB988C671E19319300D7BBA3 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C561E19319300D7BBA3 /* MMWormholeFileTransiting.m */; };
+		DB988C681E19319300D7BBA3 /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C571E19319300D7BBA3 /* MMWormholeSession.h */; };
+		DB988C691E19319300D7BBA3 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C581E19319300D7BBA3 /* MMWormholeSession.m */; };
+		DB988C6A1E19319300D7BBA3 /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C591E19319300D7BBA3 /* MMWormholeSessionContextTransiting.h */; };
+		DB988C6B1E19319300D7BBA3 /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C5A1E19319300D7BBA3 /* MMWormholeSessionContextTransiting.m */; };
+		DB988C6C1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C5B1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.h */; };
+		DB988C6D1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C5C1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.m */; };
+		DB988C6E1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C5D1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.h */; };
+		DB988C6F1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C5E1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.m */; };
+		DB988C701E19319300D7BBA3 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C5F1E19319300D7BBA3 /* MMWormholeTransiting.h */; };
+		DB988C711E19319300D7BBA3 /* TiWormholeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C601E19319300D7BBA3 /* TiWormholeModule.h */; };
+		DB988C721E19319300D7BBA3 /* TiWormholeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C611E19319300D7BBA3 /* TiWormholeModule.m */; };
+		DB988C731E19319300D7BBA3 /* TiWormholeModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = DB988C621E19319300D7BBA3 /* TiWormholeModuleAssets.h */; };
+		DB988C741E19319300D7BBA3 /* TiWormholeModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = DB988C631E19319300D7BBA3 /* TiWormholeModuleAssets.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +70,23 @@
 		CAD27D701AC8B2B800FFEBA1 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Classes/MMWormhole.h; sourceTree = "<group>"; };
 		CAD27D711AC8B2B800FFEBA1 /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Classes/MMWormhole.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libTiWormhole.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiWormhole.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB988C531E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Classes/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		DB988C541E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Classes/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		DB988C551E19319300D7BBA3 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Classes/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		DB988C561E19319300D7BBA3 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Classes/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		DB988C571E19319300D7BBA3 /* MMWormholeSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = Classes/MMWormholeSession.h; sourceTree = "<group>"; };
+		DB988C581E19319300D7BBA3 /* MMWormholeSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Classes/MMWormholeSession.m; sourceTree = "<group>"; };
+		DB988C591E19319300D7BBA3 /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = Classes/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		DB988C5A1E19319300D7BBA3 /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Classes/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		DB988C5B1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Classes/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		DB988C5C1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = Classes/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		DB988C5D1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = Classes/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		DB988C5E1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = Classes/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+		DB988C5F1E19319300D7BBA3 /* MMWormholeTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Classes/MMWormholeTransiting.h; sourceTree = "<group>"; };
+		DB988C601E19319300D7BBA3 /* TiWormholeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiWormholeModule.h; path = Classes/TiWormholeModule.h; sourceTree = "<group>"; };
+		DB988C611E19319300D7BBA3 /* TiWormholeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiWormholeModule.m; path = Classes/TiWormholeModule.m; sourceTree = "<group>"; };
+		DB988C621E19319300D7BBA3 /* TiWormholeModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiWormholeModuleAssets.h; path = Classes/TiWormholeModuleAssets.h; sourceTree = "<group>"; };
+		DB988C631E19319300D7BBA3 /* TiWormholeModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiWormholeModuleAssets.m; path = Classes/TiWormholeModuleAssets.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +131,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CAD27D701AC8B2B800FFEBA1 /* MMWormhole.h */,
-				CAD27D711AC8B2B800FFEBA1 /* MMWormhole.m */,
+				DB988C521E19318800D7BBA3 /* MMWormhole */,
 				24DE9E0F11C5FE74003F90F6 /* TiWormholeModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* TiWormholeModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* TiWormholeModule.h */,
@@ -116,6 +149,32 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		DB988C521E19318800D7BBA3 /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				DB988C531E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.h */,
+				DB988C541E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.m */,
+				DB988C551E19319300D7BBA3 /* MMWormholeFileTransiting.h */,
+				DB988C561E19319300D7BBA3 /* MMWormholeFileTransiting.m */,
+				DB988C571E19319300D7BBA3 /* MMWormholeSession.h */,
+				DB988C581E19319300D7BBA3 /* MMWormholeSession.m */,
+				DB988C591E19319300D7BBA3 /* MMWormholeSessionContextTransiting.h */,
+				DB988C5A1E19319300D7BBA3 /* MMWormholeSessionContextTransiting.m */,
+				DB988C5B1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.h */,
+				DB988C5C1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.m */,
+				DB988C5D1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.h */,
+				DB988C5E1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.m */,
+				DB988C5F1E19319300D7BBA3 /* MMWormholeTransiting.h */,
+				DB988C601E19319300D7BBA3 /* TiWormholeModule.h */,
+				DB988C611E19319300D7BBA3 /* TiWormholeModule.m */,
+				DB988C621E19319300D7BBA3 /* TiWormholeModuleAssets.h */,
+				DB988C631E19319300D7BBA3 /* TiWormholeModuleAssets.m */,
+				CAD27D701AC8B2B800FFEBA1 /* MMWormhole.h */,
+				CAD27D711AC8B2B800FFEBA1 /* MMWormhole.m */,
+			);
+			name = MMWormhole;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -123,10 +182,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB988C661E19319300D7BBA3 /* MMWormholeFileTransiting.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* TiWormhole_Prefix.pch in Headers */,
 				CAD27D721AC8B2B800FFEBA1 /* MMWormhole.h in Headers */,
+				DB988C6E1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.h in Headers */,
+				DB988C711E19319300D7BBA3 /* TiWormholeModule.h in Headers */,
+				DB988C731E19319300D7BBA3 /* TiWormholeModuleAssets.h in Headers */,
+				DB988C6C1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.h in Headers */,
+				DB988C641E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
 				24DD6CF91134B3F500162E58 /* TiWormholeModule.h in Headers */,
+				DB988C6A1E19319300D7BBA3 /* MMWormholeSessionContextTransiting.h in Headers */,
+				DB988C681E19319300D7BBA3 /* MMWormholeSession.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* TiWormholeModuleAssets.h in Headers */,
+				DB988C701E19319300D7BBA3 /* MMWormholeTransiting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +268,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB988C6B1E19319300D7BBA3 /* MMWormholeSessionContextTransiting.m in Sources */,
+				DB988C721E19319300D7BBA3 /* TiWormholeModule.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* TiWormholeModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* TiWormholeModuleAssets.m in Sources */,
+				DB988C6F1E19319300D7BBA3 /* MMWormholeSessionMessageTransiting.m in Sources */,
+				DB988C741E19319300D7BBA3 /* TiWormholeModuleAssets.m in Sources */,
+				DB988C671E19319300D7BBA3 /* MMWormholeFileTransiting.m in Sources */,
+				DB988C651E19319300D7BBA3 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
 				CAD27D731AC8B2B800FFEBA1 /* MMWormhole.m in Sources */,
+				DB988C6D1E19319300D7BBA3 /* MMWormholeSessionFileTransiting.m in Sources */,
+				DB988C691E19319300D7BBA3 /* MMWormholeSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
