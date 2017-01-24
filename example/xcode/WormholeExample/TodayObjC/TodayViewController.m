@@ -7,11 +7,11 @@
 
 #import "TodayViewController.h"
 #import <NotificationCenter/NotificationCenter.h>
-#import "MMWormholeClient.h"
+#import "MMWormhole.h"
 
 @interface TodayViewController () <NCWidgetProviding>
 
-@property (nonatomic, strong) MMWormholeClient *wormhole;
+@property (nonatomic, strong) MMWormhole *wormhole;
 @property (nonatomic, strong) NSNumber *displayCount;
 
 extern NSString * const SampleGroupIdentifier;
@@ -31,8 +31,9 @@ NSString * const SampleFieldName = @"displayNumber";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.preferredContentSize = CGSizeMake(320, 50);
-    self.wormhole = [[MMWormholeClient alloc] initWithApplicationGroupIdentifier:SampleGroupIdentifier
-                                                               optionalDirectory:SampleWormDirectory];
+    self.wormhole = [[MMWormhole alloc] initWithApplicationGroupIdentifier:SampleGroupIdentifier
+                                                         optionalDirectory:SampleWormDirectory];
+    
     [self initDisplayCounter:SampleEventName];
     [self addMessageListener:SampleEventName];
 }

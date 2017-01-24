@@ -13,8 +13,20 @@
 		CA83F57D1ACFA4A3003E81B2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83F57C1ACFA4A3003E81B2 /* NotificationCenter.framework */; };
 		CA83F5831ACFA4A3003E81B2 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA83F5821ACFA4A3003E81B2 /* TodayViewController.m */; };
 		CA83F5851ACFA4A3003E81B2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA83F5841ACFA4A3003E81B2 /* MainInterface.storyboard */; };
-		CA90005C1AD0215500F98A33 /* MMWormholeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CA90005B1AD0215500F98A33 /* MMWormholeClient.m */; };
-		CA90005D1AD0215500F98A33 /* MMWormholeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CA90005B1AD0215500F98A33 /* MMWormholeClient.m */; };
+		DB6147001E379F0F0097BB10 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F21E379F0E0097BB10 /* MMWormhole.m */; };
+		DB6147011E379F0F0097BB10 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F41E379F0E0097BB10 /* MMWormholeCoordinatedFileTransiting.m */; };
+		DB6147021E379F0F0097BB10 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F61E379F0E0097BB10 /* MMWormholeFileTransiting.m */; };
+		DB6147031E379F0F0097BB10 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F81E379F0E0097BB10 /* MMWormholeSession.m */; };
+		DB6147041E379F0F0097BB10 /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FA1E379F0E0097BB10 /* MMWormholeSessionContextTransiting.m */; };
+		DB6147051E379F0F0097BB10 /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FC1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.m */; };
+		DB6147061E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FE1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m */; };
+		DB6858B81E37A43C008A333C /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F21E379F0E0097BB10 /* MMWormhole.m */; };
+		DB6858BA1E37A43C008A333C /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F41E379F0E0097BB10 /* MMWormholeCoordinatedFileTransiting.m */; };
+		DB6858BC1E37A43C008A333C /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F61E379F0E0097BB10 /* MMWormholeFileTransiting.m */; };
+		DB6858BE1E37A43C008A333C /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F81E379F0E0097BB10 /* MMWormholeSession.m */; };
+		DB6858C01E37A43C008A333C /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FA1E379F0E0097BB10 /* MMWormholeSessionContextTransiting.m */; };
+		DB6858C21E37A43C008A333C /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FC1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.m */; };
+		DB6858C41E37A43C008A333C /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FE1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +43,21 @@
 		CA83F5821ACFA4A3003E81B2 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		CA83F5841ACFA4A3003E81B2 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		CA83F58C1ACFAD45003E81B2 /* TodayObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayObjC.entitlements; sourceTree = "<group>"; };
-		CA90005A1AD0215500F98A33 /* MMWormholeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeClient.h; path = ../../../ClientSource/MMWormholeClient.h; sourceTree = "<group>"; };
-		CA90005B1AD0215500F98A33 /* MMWormholeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeClient.m; path = ../../../ClientSource/MMWormholeClient.m; sourceTree = "<group>"; };
+		DB6146F11E379F0E0097BB10 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = ../../../iphone/Classes/MMWormhole.h; sourceTree = "<group>"; };
+		DB6146F21E379F0E0097BB10 /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = ../../../iphone/Classes/MMWormhole.m; sourceTree = "<group>"; };
+		DB6146F31E379F0E0097BB10 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = ../../../iphone/Classes/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		DB6146F41E379F0E0097BB10 /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = ../../../iphone/Classes/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		DB6146F51E379F0E0097BB10 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = ../../../iphone/Classes/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		DB6146F61E379F0E0097BB10 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = ../../../iphone/Classes/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		DB6146F71E379F0E0097BB10 /* MMWormholeSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = ../../../iphone/Classes/MMWormholeSession.h; sourceTree = "<group>"; };
+		DB6146F81E379F0E0097BB10 /* MMWormholeSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = ../../../iphone/Classes/MMWormholeSession.m; sourceTree = "<group>"; };
+		DB6146F91E379F0E0097BB10 /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = ../../../iphone/Classes/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		DB6146FA1E379F0E0097BB10 /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = ../../../iphone/Classes/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		DB6146FB1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = ../../../iphone/Classes/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		DB6146FC1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = ../../../iphone/Classes/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		DB6146FD1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = ../../../iphone/Classes/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		DB6146FE1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = ../../../iphone/Classes/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+		DB6146FF1E379F0F0097BB10 /* MMWormholeTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = ../../../iphone/Classes/MMWormholeTransiting.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +103,7 @@
 		CA83F56E1ACFA448003E81B2 = {
 			isa = PBXGroup;
 			children = (
-				CA90005A1AD0215500F98A33 /* MMWormholeClient.h */,
-				CA90005B1AD0215500F98A33 /* MMWormholeClient.m */,
+				DB6147071E379F150097BB10 /* MMWormhole */,
 				CA83F57E1ACFA4A3003E81B2 /* TodayObjC */,
 				CA2C5C5D1ACFEDC30063F646 /* TodaySwift */,
 				CA83F57B1ACFA4A3003E81B2 /* Frameworks */,
@@ -122,6 +146,28 @@
 				CA83F5801ACFA4A3003E81B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB6147071E379F150097BB10 /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				DB6146F11E379F0E0097BB10 /* MMWormhole.h */,
+				DB6146F21E379F0E0097BB10 /* MMWormhole.m */,
+				DB6146F31E379F0E0097BB10 /* MMWormholeCoordinatedFileTransiting.h */,
+				DB6146F41E379F0E0097BB10 /* MMWormholeCoordinatedFileTransiting.m */,
+				DB6146F51E379F0E0097BB10 /* MMWormholeFileTransiting.h */,
+				DB6146F61E379F0E0097BB10 /* MMWormholeFileTransiting.m */,
+				DB6146F71E379F0E0097BB10 /* MMWormholeSession.h */,
+				DB6146F81E379F0E0097BB10 /* MMWormholeSession.m */,
+				DB6146F91E379F0E0097BB10 /* MMWormholeSessionContextTransiting.h */,
+				DB6146FA1E379F0E0097BB10 /* MMWormholeSessionContextTransiting.m */,
+				DB6146FB1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.h */,
+				DB6146FC1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.m */,
+				DB6146FD1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.h */,
+				DB6146FE1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m */,
+				DB6146FF1E379F0F0097BB10 /* MMWormholeTransiting.h */,
+			);
+			name = MMWormhole;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +218,7 @@
 					CA2C5C5A1ACFEDC20063F646 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = RCJGHLHMN9;
+						LastSwiftMigration = 0820;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -180,7 +227,6 @@
 					};
 					CA83F5781ACFA4A3003E81B2 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = RCJGHLHMN9;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -231,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6858B81E37A43C008A333C /* MMWormhole.m in Sources */,
+				DB6858BA1E37A43C008A333C /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				DB6858BC1E37A43C008A333C /* MMWormholeFileTransiting.m in Sources */,
+				DB6858BE1E37A43C008A333C /* MMWormholeSession.m in Sources */,
+				DB6858C01E37A43C008A333C /* MMWormholeSessionContextTransiting.m in Sources */,
+				DB6858C21E37A43C008A333C /* MMWormholeSessionFileTransiting.m in Sources */,
+				DB6858C41E37A43C008A333C /* MMWormholeSessionMessageTransiting.m in Sources */,
 				CA2C5C611ACFEDC30063F646 /* TodayViewController.swift in Sources */,
-				CA90005D1AD0215500F98A33 /* MMWormholeClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6147001E379F0F0097BB10 /* MMWormhole.m in Sources */,
+				DB6147041E379F0F0097BB10 /* MMWormholeSessionContextTransiting.m in Sources */,
+				DB6147061E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m in Sources */,
+				DB6147021E379F0F0097BB10 /* MMWormholeFileTransiting.m in Sources */,
+				DB6147011E379F0F0097BB10 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				DB6147051E379F0F0097BB10 /* MMWormholeSessionFileTransiting.m in Sources */,
+				DB6147031E379F0F0097BB10 /* MMWormholeSession.m in Sources */,
 				CA83F5831ACFA4A3003E81B2 /* TodayViewController.m in Sources */,
-				CA90005C1AD0215500F98A33 /* MMWormholeClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +354,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "TodaySwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -339,6 +398,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "TodaySwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -377,6 +437,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -425,6 +486,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
