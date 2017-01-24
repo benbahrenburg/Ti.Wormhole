@@ -8,6 +8,6 @@
 #ifndef WormholeExample_WormholeExample_TodaySwift_Bridging_Header_h
 #define WormholeExample_WormholeExample_TodaySwift_Bridging_Header_h
 
-#import "MMWormholeClient.h"
+#import "MMWormhole.h"
 
 #endif
