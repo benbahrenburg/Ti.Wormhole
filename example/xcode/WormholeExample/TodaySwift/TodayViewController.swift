@@ -58,7 +58,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     }
     
     func updateCounter() {
-        wormhole.passMessageObject([sampleFieldName : displayCount], identifier: sampleEventName)
+        wormhole.passMessageObject([sampleFieldName : displayCount] as NSCoding?, identifier: sampleEventName)
         displayCounter()
     }
     

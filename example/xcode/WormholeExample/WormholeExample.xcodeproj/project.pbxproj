@@ -20,6 +20,13 @@
 		DB6147041E379F0F0097BB10 /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FA1E379F0E0097BB10 /* MMWormholeSessionContextTransiting.m */; };
 		DB6147051E379F0F0097BB10 /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FC1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.m */; };
 		DB6147061E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FE1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m */; };
+		DB6858B81E37A43C008A333C /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F21E379F0E0097BB10 /* MMWormhole.m */; };
+		DB6858BA1E37A43C008A333C /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F41E379F0E0097BB10 /* MMWormholeCoordinatedFileTransiting.m */; };
+		DB6858BC1E37A43C008A333C /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F61E379F0E0097BB10 /* MMWormholeFileTransiting.m */; };
+		DB6858BE1E37A43C008A333C /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146F81E379F0E0097BB10 /* MMWormholeSession.m */; };
+		DB6858C01E37A43C008A333C /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FA1E379F0E0097BB10 /* MMWormholeSessionContextTransiting.m */; };
+		DB6858C21E37A43C008A333C /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FC1E379F0E0097BB10 /* MMWormholeSessionFileTransiting.m */; };
+		DB6858C41E37A43C008A333C /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6146FE1E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -220,7 +227,6 @@
 					};
 					CA83F5781ACFA4A3003E81B2 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = RCJGHLHMN9;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -271,6 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6858B81E37A43C008A333C /* MMWormhole.m in Sources */,
+				DB6858BA1E37A43C008A333C /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				DB6858BC1E37A43C008A333C /* MMWormholeFileTransiting.m in Sources */,
+				DB6858BE1E37A43C008A333C /* MMWormholeSession.m in Sources */,
+				DB6858C01E37A43C008A333C /* MMWormholeSessionContextTransiting.m in Sources */,
+				DB6858C21E37A43C008A333C /* MMWormholeSessionFileTransiting.m in Sources */,
+				DB6858C41E37A43C008A333C /* MMWormholeSessionMessageTransiting.m in Sources */,
 				CA2C5C611ACFEDC30063F646 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,14 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6147001E379F0F0097BB10 /* MMWormhole.m in Sources */,
 				DB6147041E379F0F0097BB10 /* MMWormholeSessionContextTransiting.m in Sources */,
-				CA83F5831ACFA4A3003E81B2 /* TodayViewController.m in Sources */,
 				DB6147061E379F0F0097BB10 /* MMWormholeSessionMessageTransiting.m in Sources */,
 				DB6147021E379F0F0097BB10 /* MMWormholeFileTransiting.m in Sources */,
 				DB6147011E379F0F0097BB10 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
-				DB6147001E379F0F0097BB10 /* MMWormhole.m in Sources */,
 				DB6147051E379F0F0097BB10 /* MMWormholeSessionFileTransiting.m in Sources */,
 				DB6147031E379F0F0097BB10 /* MMWormholeSession.m in Sources */,
+				CA83F5831ACFA4A3003E81B2 /* TodayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +437,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -472,6 +486,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
